@@ -1,0 +1,9 @@
+<?php
+	include '2_trycath.php';
+
+	$query ="insert into teste (nome, email) values ('Thainá', 'thaina.nunes.barbosa@escola.pr.gov.br')";
+	$sql = $conexao->prepare($query);
+	$resultado = $sql->execute();
+
+
+?>
